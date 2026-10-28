@@ -3,8 +3,8 @@ const projects = [
   {title:"Python Programs Collection",desc:"Factorial, Fibonacci and structure-to-dictionary conversion programs, with a clear README explaining each one.",tech:["Python","Git"],repo:GH+"python-programs-collection",live:""},
   {title:"Messy Python Code Improvement",desc:"A messy Python script cleaned up with AI assistance: better names, structure and comments.",tech:["Python","AI tools"],repo:GH+"messy-python-code-improvement",live:""},
   {title:"Bug Fixing Using Cursor AI",desc:"A buggy program found and corrected with Cursor AI, with notes on what was wrong and how it was fixed.",tech:["Python","Cursor AI"],repo:GH+"bug-fixing-cursor-ai",live:""},
-  {title:"Interactive Quiz Application",desc:"A quiz app that asks questions, checks answers and shows your score.",tech:["HTML","CSS","JavaScript"],repo:GH+"interactive-quiz-app",live:""},
-  {title:"Book Reading List Application",desc:"Add books to a reading list, mark them as read and remove them.",tech:["HTML","CSS","JavaScript","Vercel"],repo:GH+"book-reading-list",live:""}
+  {title:"Interactive Quiz Application",desc:"A quiz app that asks questions, checks answers and shows your score.",tech:["HTML","CSS","JavaScript"],repo:GH+"interactive-quiz-app",live:"https://interactive-quiz-app-tau.vercel.app"},
+  {title:"Book Reading List Application",desc:"Add books to a reading list, mark them as read and remove them.",tech:["HTML","CSS","JavaScript","Vercel"],repo:GH+"book-reading-list",live:"https://book-reading-list-psi.vercel.app"}
 ];
 const grid = document.getElementById("grid"), count = document.getElementById("count"), search = document.getElementById("search");
 function render(list){
