@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aditya Bansal | Portfolio</title>
+<meta name="description" content="Aditya Bansal - B.Tech student at JECRC University, aspiring data analyst.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#home">Aditya Bansal</a>
+  <nav>
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a><a href="#chatbot">AI Chatbot</a>
+  </nav>
+  <button id="themeBtn" aria-label="Switch between light and dark mode">Dark mode</button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div>
+    <h1>Hi, I’m Aditya Bansal.<br>I turn data into decisions.</h1>
+    <p>B.Tech student at JECRC University, Jaipur, building a career in data analytics. Strong in statistics, comfortable with Python and SQL.</p>
+    <p><a class="btn" href="#projects">See my projects</a> <a class="btn ghost" href="https://github.com/aditya3-1-0-8" target="_blank" rel="noopener">GitHub profile</a></p>
+  </div>
+  <svg class="curve" viewBox="0 0 300 160" role="img" aria-label="Bell curve illustration">
+    <path d="M10 140 C70 140 100 20 150 20 S230 140 290 140" fill="none" stroke="currentColor" stroke-width="3"/>
+    <line x1="150" y1="20" x2="150" y2="140" stroke="currentColor" stroke-dasharray="4 4"/>
+    <line x1="5" y1="140" x2="295" y2="140" stroke="currentColor" stroke-width="1"/>
+  </svg>
+</section>
+
+<section id="about">
+  <h2>About me</h2>
+  <div class="about">
+    <div class="avatar" aria-hidden="true">AB</div>
+    <div>
+      <p>I’m Aditya, a first-year B.Tech engineering student at JECRC University, Jaipur (batch of 2029). I like finding patterns in numbers, and statistics is my strongest subject.</p>
+      <p>I’m aiming to become a data analyst, so I’m learning Python, PostgreSQL and NoSQL databases. Outside of studies I play Clash of Clans, where I’m at Town Hall 18. It taught me to plan resources and think a few moves ahead.</p>
+      <p><strong>Education:</strong> B.Tech Engineering, JECRC University, Jaipur. Expected graduation: 2029.</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul class="chips">
+    <li>Python</li><li>PostgreSQL</li><li>NoSQL</li><li>Statistics</li><li>Data analysis</li><li>Git &amp; GitHub</li><li>HTML, CSS, JavaScript</li><li>Problem solving</li><li>Strategic thinking (Clash of Clans, Town Hall 18)</li>
+  </ul>
+</section>
+
+<section id="projects">
+  <h2>My projects</h2>
+  <label class="sr" for="search">Search projects</label>
+  <input id="search" type="search" placeholder="Search by name or technology, e.g. Python, Quiz, Book">
+  <p id="count" class="muted" aria-live="polite"></p>
+  <div id="grid" class="grid"></div>
+</section>
+
+<section id="contact">
+  <h2>Contact information</h2>
+  <ul class="contact">
+    <li>Email: <a href="mailto:adityabansalzzzz09@gmail.com">adityabansalzzzz09@gmail.com</a></li>
+    <li>LinkedIn: <a href="https://www.linkedin.com/in/aditya-bansal-39b106373" target="_blank" rel="noopener">Aditya Bansal</a></li>
+    <li>GitHub: <a href="https://github.com/aditya3-1-0-8" target="_blank" rel="noopener">aditya3-1-0-8</a></li>
+    <li>Location: Jaipur, India</li>
+  </ul>
+</section>
+
+<section id="chatbot">
+  <h2>AI chatbot</h2>
+  <p class="muted">Ask about my skills, projects or GitHub.</p>
+  <div class="chat">
+    <div id="log" class="log" aria-live="polite">
+      <div class="msg bot">Hi! I’m Aditya’s portfolio assistant. Try asking “What projects has Aditya completed?”</div>
+    </div>
+    <form id="chatForm">
+      <input id="chatInput" type="text" placeholder="Type your question" autocomplete="off" required>
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Aditya Bansal</footer>
+<script src="script.js"></script>
+</body>
+</html>
